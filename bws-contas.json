@@ -1,0 +1,159 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Olá QA´s!:ghost:\n Abaixo segue as contas disponíveis no <https://browserstack.com/app-live|*BrowserStack.*>\n *O que precisam fazer:*\n Selecione o seu usuário no campo _*ComboBox*_ a conta associada! Quando não estiver mais utilizando, remova a seleção do seu usuário!\n Isso deixará claro para todos o status da conta: utilizas, por quem e a(s) disponível(is)!"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*ayrton.nabeiro.acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*caio.almeida@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*carla.piva@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*carolina.magalhaes@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*felipe.alves@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*lilian.naomi@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*maryana.feijo@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*mateus.medeiros@acct.global*"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Selecione seu usuário",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Após informar seu usuário associado a conta, clique no botão *Informar*"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Informar",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "button-action"
+			}
+		}
+	]
+}
